@@ -4110,26 +4110,28 @@ le-tls-sni@^0.1.0:
     node-forge "^0.6.43"
     rsa-compat "^1.2.7"
 
-less-middleware@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/less-middleware/-/less-middleware-2.2.1.tgz#41bfc801b01acadb39bd380feda7fcc6a1da7b8c"
+less-middleware@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/less-middleware/-/less-middleware-3.0.0.tgz#1a69d6e7c84e5a939db68a4a2c0c94022542c3d2"
+  integrity sha512-qjI32H15ZmTrz1TTO7qFPIDMZSQ55TzCDQy5SK8oflDvuTHVQmlkZjtC9MzgOsUtLd40l0SKhP+d08Nl9R3zzw==
   dependencies:
-    less "~2.7.1"
+    less "~3.0.4"
     mkdirp "~0.5.1"
     node.extend "~2.0.0"
 
-less@~2.7.1:
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/less/-/less-2.7.3.tgz#cc1260f51c900a9ec0d91fb6998139e02507b63b"
+less@~3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/less/-/less-3.0.4.tgz#d27dcedbac96031c9e7b76f1da1e4b7d83760814"
+  integrity sha512-q3SyEnPKbk9zh4l36PGeW2fgynKu+FpbhiUNx/yaiBUQ3V0CbACCgb9FzYWcRgI2DJlP6eI4jc8XPrCTi55YcQ==
   optionalDependencies:
     errno "^0.1.1"
     graceful-fs "^4.1.2"
     image-size "~0.5.0"
-    mime "^1.2.11"
+    mime "^1.4.1"
     mkdirp "^0.5.0"
     promise "^7.1.1"
-    request "2.81.0"
-    source-map "^0.5.3"
+    request "^2.83.0"
+    source-map "~0.6.0"
 
 letsencrypt-express@2.0.6:
   version "2.0.6"
@@ -4574,7 +4576,7 @@ mime@1.3.4:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.3.4.tgz#115f9e3b6b3daf2959983cb38f149a2d40eb5d53"
 
-mime@1.4.1, mime@^1.2.11, mime@^1.3.4, mime@^1.3.6, mime@^1.4.0, mime@^1.4.1:
+mime@1.4.1, mime@^1.3.4, mime@^1.3.6, mime@^1.4.0, mime@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.4.1.tgz#121f9ebc49e3766f311a76e1fa1c8003c4b03aa6"
 
@@ -6289,7 +6291,7 @@ source-map-support@^0.4.15:
   dependencies:
     source-map "^0.5.6"
 
-"source-map@>= 0.1.2":
+"source-map@>= 0.1.2", source-map@~0.6.0:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
@@ -6299,7 +6301,7 @@ source-map@^0.4.4, source-map@~0.4.0, source-map@~0.4.2:
   dependencies:
     amdefine ">=0.0.4"
 
-source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.1, source-map@~0.5.3, source-map@~0.5.6:
+source-map@^0.5.6, source-map@~0.5.1, source-map@~0.5.3, source-map@~0.5.6:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
