@@ -1576,12 +1576,13 @@ cloudinary-microurl@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/cloudinary-microurl/-/cloudinary-microurl-1.2.0.tgz#13200d4f75527853ac0f03811cf08f66fa2f3ee6"
 
-cloudinary@1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.9.0.tgz#44bfd5da79b8650ac63015606f0122ddf601c909"
+cloudinary@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.10.0.tgz#4dfaeeebf932fe98e61d2f7e4d2391c39e76bbf8"
+  integrity sha512-+8GXHTNPKAcCKiSGYwdglIUYMjXxKoOgAVXPQMrDEHjSTVovCeqVnUtoXdF+v0RyAkAqK/sun0hJd5uw4o0plA==
   dependencies:
-    lodash "3.10.x"
-    q "1.4.x"
+    lodash "^4.17.4"
+    q "^1.5.1"
 
 co@^4.6.0:
   version "4.6.0"
@@ -4378,10 +4379,6 @@ lodash.some@^4.4.0:
   dependencies:
     lodash._createwrapper "^3.0.0"
 
-lodash@3.10.x, lodash@^3.10.1, lodash@^3.5.0, lodash@^3.9.3:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-
 lodash@4.11.1:
   version "4.11.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.11.1.tgz#a32106eb8e2ec8e82c241611414773c9df15f8bc"
@@ -4390,7 +4387,16 @@ lodash@4.13.1:
   version "4.13.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.13.1.tgz#83e4b10913f48496d4d16fec4a560af2ee744b68"
 
-lodash@4.17.4, lodash@^4.0.0, lodash@^4.0.1, lodash@^4.1.0, lodash@^4.13.1, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.6, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
+lodash@4.17.20:
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+
+lodash@^3.10.1, lodash@^3.5.0, lodash@^3.9.3:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+
+lodash@^4.0.0, lodash@^4.0.1, lodash@^4.1.0, lodash@^4.13.1, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.6, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -5402,9 +5408,14 @@ pyconf@^1.1.2:
   dependencies:
     safe-replace "^1.0.2"
 
-q@1.4.1, q@1.4.x, q@~1.4.0:
+q@1.4.1, q@~1.4.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
+
+q@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
+  integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 qs@2.3.3:
   version "2.3.3"
